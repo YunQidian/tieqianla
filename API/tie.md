@@ -19,7 +19,7 @@ Content-Type : application/json
 -------------  | ---------- | -------------  |---------- 
 uid            | true 	    | long(20)       |用户ID
 title          | true 	    | string(100)    |活动名称
-invited        | true 	    | int            |活动是否有邀请机制,是1,否0
+invited        | true 	    | int(1)            |活动是否有邀请机制,是1,否0
 link           | false	    | string(500)    |活动邀请链接
 code           | false	    | string(50)     |活动邀请码
 brief          | false	    | string(500)    |活动简要描述
