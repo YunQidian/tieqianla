@@ -43,7 +43,7 @@ phone          | true 	    | string(15)     |手机号码
 		"error_message":"XXXXX"
 	}
 	
-	---
+---
 ##<a id="2">2.验证手机验证码</a>
 
 ### URL
