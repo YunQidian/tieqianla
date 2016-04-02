@@ -2,6 +2,8 @@
 
 [1.用户申请发布贴钱活动](#1)
 
+[2.用户申请发布贴钱活动后填写手机号码](#2)
+
 ---
 ##<a id="1">1.用户申请发布贴钱活动</a>
 
@@ -46,6 +48,42 @@ images         | false      | string['','']  |图片数组
 		"data" : {
 		  "applyid" : 123421
 		}
+	}
+
+#### 请求失败
+	{
+		"error_code":"10000",
+		"error_message":"XXXXX"
+	}
+
+---
+##<a id="2">2.用户申请发布贴钱活动后填写手机号码</a>
+
+### URL
+/tie/apply/fill_phone.json
+
+### 请求方式
+POST
+
+### Header
+Content-Type : application/json
+
+### 请求参数
+     参数      | 必选 	    | 类型及范围     |说明
+-------------  | ---------- | -------------  |---------- 
+applyid        | true 	    | long(20)       |申请id
+phone          | true 	    | string(15)     |用户填写的手机号码
+
+### 请求Json示例
+	{       
+		applyid : 1000001,
+		phone : "15292422938"
+	}
+
+### 返回Json示例
+#### 请求成功
+	{
+		"success":"true"
 	}
 
 #### 请求失败
