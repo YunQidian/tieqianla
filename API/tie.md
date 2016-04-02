@@ -76,8 +76,8 @@ phone          | true 	    | string(15)     |用户填写的手机号码
 
 ### 请求Json示例
 	{       
-		applyid : 1000001,
-		phone : "15292422938"
+		"applyid" : 1000001,
+		"phone" : "15292422938"
 	}
 
 ### 返回Json示例
