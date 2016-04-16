@@ -130,7 +130,8 @@ time           | true 	    | long(15)       |发布的时间戳
 		   	"title" : "活动标题",
 		   	"brief" : "活动简介",
 		   	"img" : "缩略图",
-		   	"link" : "http://t.cn/dsdtxxd"  //点击后跳转的链接地址
+		   	"link" : "http://t.cn/dsdtxxd",  //点击后跳转的链接地址
+		   	"createTime" : 146078556986
 		   }],
 		   time : 146078556986  //下次查询的时间戳
 		}
